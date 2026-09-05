@@ -2,6 +2,12 @@
 
 作业扫描材料与答案占位文件整理仓库。当前结构以“一个文件夹＝一课（或一组专项）”为单位，同一课的多页图片放在同一个目录中。
 
+> **做题前先看 `CLAUDE.md` 和 `进度.md` 里的「解题规范」**：所有解题必须先调用
+> `math-cixibara` skill；数学提示阶梯照 `math-hint` 的写法标准写（但仍输出成
+> `答案.md` 里的 `<details>` 折叠块）；`math-stepbystep` 不用。
+> 过滤克隆时把这三个文件一起取出来：
+> `git sparse-checkout set --no-cone /进度.md /README.md /CLAUDE.md`
+
 ## 目录结构
 
 ```text
